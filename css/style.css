@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+a:visited,
+a:link{
+    color: black;
+}
+a:hover{
+    border-bottom: 2px solid black;
+}
+
+.title-main{
+    width: 8rem;
+    padding-left: 2rem;
+    font-style: italic;
+    background-color: blanchedalmond;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 2rem;
+}
+.main-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-menu__item{
+    padding-inline-end: 5rem;
+    right:1rem;
+
+}
+
+.container{
+    background-color: rgb(245, 245, 245);
+    width: 16rem;
+    height: 24rem;
+
+}
+
+
+.table-container{
+    background-color: rgb(202, 206, 205);
+    height: auto;
+    width: 12rem;
+    margin: auto;
+    float: end;
+
+
+}
+
+.table-main{
+    box-sizing: border-box;
+    display: flex;
+}
+
+.table-calc-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1.5rem 1rem 1.5rem 1rem;
+
+}
+
+.button-calc{
+    margin-left: 4.5rem;
+
+}
+
+.inputHere{
+    width: 3rem;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.resultado{
+    pointer-events: none;
+    width: 4rem;
+}
+
+.salida{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                 CALCULADORA                                */
+/* -------------------------------------------------------------------------- */
+
+.calculadora-box{
+    background-color: rgb(48, 34, 34);
+    width: 15rem;
+    height: 15rem;
+    margin-left: 3rem;
+    border-radius: 15px
+}
+
+#calculator{
+    height: 30px;
+    width: 80%;
+    margin: 15px 0 15px 25px;
+    border-radius: 0.5rem;
+
+}
+
+.botones-calculadora{
+    margin-left: 1.5rem;
+}
+.botones-calculadora button{
+    
+    height: 35px;
+    width: 35px;
+}

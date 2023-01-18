@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase JavaScript</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+
+</head>
+
+
+
+<body>
+
+    
+    <nav class="main-nav">
+        <div class="title-main">
+            <h1>Testing JS</h1>
+        </div>
+        <ul class="main-menu" id="main-menu">
+            <li class="main-menu__item">
+                <a href="../index.html" class="main-menu__link">Home</a>
+            </li>
+            <li class="main-menu__item">
+                <a href="../pages/catalogo.html" class="main-menu__link">Catalogo</a>
+            </li>
+            <li class="main-menu__item">
+                <a href="../pages/calc.html" class="main-menu__link">Calculadora</a>
+            </li>
+            <li class="main-menu__item">
+                <a href="#" class="main-menu__link">Login</a>
+            </li>
+        </ul>
+    </nav>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="login">
+        <form name='form-login'>
+    
+            <h1>Registrarse</h1>
+    
+            <label for="name">Email</label>
+            <input type="email" id="name" placeholder="Username" required>
+    
+            <label for="pw">Contraseña</label>
+            <input type="password" id= "pw" placeholder="Contraseña" required>
+    
+            <ul class="texto-ayuda">
+                <li class="length">Maximo 8 caracteres.</li>
+                <li class="lowercase">Tiene que contener una minuscula.</li>
+                <li class="uppercase">Tiene que contener una mayuscula.</li>
+                <li class="special">Tiene que contener un numero o caracter especial.</li>
+            </ul>
+            <input id="rgstr_btn" type="submit" value="Register" onclick="store()">
+    
+        </form>
+    </div>
+    
+    <div class="login">
+        <form name='form-login'>
+    
+            <h1>Login</h1>
+    
+            <label for="userName">Email</label>
+            <input type="email" id="userName" placeholder="Username" required>
+    
+            <label for="userPw">Contraseña</label>
+            <input type="password" id= "userPw" placeholder="Contraseña" required>
+    
+            <div id="remember">
+                <input type="checkbox" value="lsRememberMe" id="rememberMe" style="display: inline-block;">
+                <label>Recordar</label>
+            </div>
+    
+            <input id= "login_btn" type="submit" value="Login" onclick="check()">
+    
+        </form>
+    </div>
+    
+
+
+
+
+    <script src="../js/login.js"></script>
+</body>
+</html>
